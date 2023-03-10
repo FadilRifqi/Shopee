@@ -1,0 +1,77 @@
+.flash-wrapper {
+  min-height: 50vh;
+}
+
+.flash-container {
+  padding: 8px;
+  position: relative;
+  background-color: #ffffff;
+}
+
+.flash-time {
+  margin: 12px;
+  gap: 14px;
+  display: flex;
+}
+
+.flash-judul {
+  width: 120px;
+  height: 24px;
+}
+
+.remaining-time {
+  display: flex;
+  gap: 4px;
+  color: #ffffff;
+  font-size: 0.8em;
+  font-weight: 800;
+}
+
+.minute {
+  border-radius: 4px;
+  padding: 1px 6px 1px 6px;
+  background-color: #000000;
+}
+
+.second {
+  border-radius: 4px;
+  padding: 1px 6px 1px 6px;
+  background-color: #000000;
+}
+.hour {
+  border-radius: 4px;
+  padding: 1px 6px 1px 6px;
+  background-color: #000000;
+}
+
+.next {
+  margin-right: 8px;
+  position: absolute;
+  right: 0;
+  cursor: pointer;
+  border: none;
+  background-color: #ffffff;
+  color: #ee4d2d;
+}
+
+.next-img {
+  width: 8px;
+  height: 8px;
+}
+
+.flash-product {
+  position: relative;
+  margin-left: 8px;
+}
+
+.flash-img {
+  background: url("/public/assets/images/gratis.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.flash-product img {
+  object-fit: contain;
+  width: 12.5rem;
+  height: 15.5rem;
+}

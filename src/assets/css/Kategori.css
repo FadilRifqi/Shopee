@@ -1,0 +1,143 @@
+.kategori-container {
+  padding-bottom: 20px;
+  overflow: hidden;
+}
+
+.kategori-wrapper {
+  position: relative;
+}
+
+.kategori-judul {
+  border: 0.2px groove rgba(0, 0, 0, 0.05);
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+.judul {
+  font-weight: 600;
+  font-size: 1rem;
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.kategori-barang {
+  display: inline-flex;
+  margin-top: 0.5px;
+}
+
+.barang-img img {
+  width: 90px;
+  height: 90px;
+}
+
+.barang-wrapper {
+  transition: 1s;
+}
+.barang-wrapper-next {
+  transition: 1s;
+  margin-left: -30%;
+}
+
+.barang-img {
+  display: flex;
+  justify-content: center;
+}
+
+.barang {
+  transition: 0.1;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  border: 0.2px groove rgba(0, 0, 0, 0.05);
+  height: 160px;
+  width: 118.5px;
+  background-color: #ffffff;
+}
+.barang:hover {
+  background-color: #fff;
+  border-right: 1px groove rgba(255, 255, 255, 0.4);
+  border-bottom: 1px groove rgba(255, 255, 255, 0.4);
+}
+
+.barang-description {
+  justify-content: end;
+  text-align: center;
+}
+
+.change-img {
+  width: 10px;
+  height: 10px;
+}
+.change-img-hovered {
+  width: 20px;
+  height: 20px;
+}
+
+.change-right {
+  transition: 0.1s;
+  box-shadow: 0px 0px 8px -3px rgba(0, 0, 0, 0.43);
+  -webkit-box-shadow: 0px 0px 8px -3px rgba(0, 0, 0, 0.43);
+  -moz-box-shadow: 0px 0px 8px -3px rgba(0, 0, 0, 0.43);
+  border: 0.2px groove rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+  background-color: #ffffff;
+  border-radius: 50%;
+  height: 25px;
+  width: 25px;
+  margin-right: -12px;
+  right: 0;
+  top: 55%;
+  position: absolute;
+  z-index: 999;
+}
+
+.change-right-hovered {
+  box-shadow: 0px 0px 8px -3px rgba(0, 0, 0, 0.43);
+  -webkit-box-shadow: 0px 0px 8px -3px rgba(0, 0, 0, 0.43);
+  -moz-box-shadow: 0px 0px 8px -3px rgba(0, 0, 0, 0.43);
+  border: 0.2px groove rgba(0, 0, 0, 0.05);
+  margin-right: -19px;
+  cursor: pointer;
+  background-color: #ffffff;
+  border-radius: 50%;
+  height: 45px;
+  width: 45px;
+  right: 0;
+  top: 52%;
+  position: absolute;
+  z-index: 999;
+}
+
+.change-left-hovered {
+  box-shadow: 0px 0px 8px -3px rgba(0, 0, 0, 0.43);
+  -webkit-box-shadow: 0px 0px 8px -3px rgba(0, 0, 0, 0.43);
+  -moz-box-shadow: 0px 0px 8px -3px rgba(0, 0, 0, 0.43);
+  border: 0.2px groove rgba(0, 0, 0, 0.05);
+  margin-left: -19px;
+  cursor: pointer;
+  background-color: #ffffff;
+  border-radius: 50%;
+  height: 45px;
+  width: 45px;
+  left: 0;
+  top: 52%;
+  position: absolute;
+  z-index: 999;
+}
+
+.change-left {
+  transition: 0.1s;
+  box-shadow: 0px 0px 8px -3px rgba(0, 0, 0, 0.43);
+  -webkit-box-shadow: 0px 0px 8px -3px rgba(0, 0, 0, 0.43);
+  -moz-box-shadow: 0px 0px 8px -3px rgba(0, 0, 0, 0.43);
+  border: 0.2px groove rgba(0, 0, 0, 0.05);
+  margin-left: -12px;
+  cursor: pointer;
+  background-color: #ffffff;
+  border-radius: 50%;
+  height: 25px;
+  width: 25px;
+  left: 0;
+  top: 55%;
+  position: absolute;
+  z-index: 999;
+}
