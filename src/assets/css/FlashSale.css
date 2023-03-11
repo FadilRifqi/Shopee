@@ -59,19 +59,83 @@
   height: 8px;
 }
 
+.product-bg {
+  width: 100%;
+}
+
+.flash-product-container {
+  display: flex;
+  gap: 30px;
+}
+
 .flash-product {
+  margin-top: 16px;
   position: relative;
+  width: 10rem;
+  height: 15.5rem;
   margin-left: 8px;
 }
 
 .flash-img {
+  position: absolute;
   background: url("/public/assets/images/gratis.png");
   background-size: contain;
   background-repeat: no-repeat;
+  width: 10rem;
+  height: 15.5rem;
+  z-index: 1;
 }
 
 .flash-product img {
+  margin-top: -48px;
+  position: absolute;
   object-fit: contain;
-  width: 12.5rem;
+  width: 10.5rem;
   height: 15.5rem;
+}
+
+.flash-price {
+  display: flex;
+  margin-bottom: 18px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  z-index: 999;
+}
+
+.sold {
+  position: relative;
+  background-color: rgba(240, 59, 18, 0.3);
+  margin-top: 4px;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  display: inline-flex;
+  flex-direction: row;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.sold-img {
+  background: url("/public/assets/images/fire.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  bottom: 0;
+  width: 20px;
+  height: 20px;
+  left: 0;
+  margin-bottom: 4px;
+  margin-left: 6px;
+  position: absolute;
+}
+
+.price {
+  font-size: 1.15rem;
+  font-weight: 500;
+  color: rgb(238, 77, 45);
 }

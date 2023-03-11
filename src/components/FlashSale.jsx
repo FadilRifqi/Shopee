@@ -16,7 +16,11 @@ const FlashSale = () => {
   const getTime = () => {
     const date = new Date();
 
-    setHour(date.getHours().toString());
+    setHour(
+      date.getHours() < 10
+        ? "0" + date.getHours().toString()
+        : date.getHours().toString()
+    );
     setMinute(
       date.getMinutes() < 10
         ? "0" + date.getMinutes().toString()
@@ -56,10 +60,82 @@ const FlashSale = () => {
         </div>
         <div className="flash-product-container">
           <div className="flash-product">
-            <div className="flash-img">
+            <div className="product-bg">
+              <div className="flash-img"></div>
               <img src="/assets/images/flash.jpeg" />
+              <div className="flash-price">
+                <div className="price">Rp.149.000,-</div>
+                <div className="sold">
+                  <div className="sold-img"></div>
+                  <div className="text">Habis Terjual</div>
+                </div>
+              </div>
             </div>
-            <div className="flash-price"></div>
+          </div>
+          <div className="flash-product">
+            <div className="product-bg">
+              <div className="flash-img"></div>
+              <img src="/assets/images/flash.jpeg" />
+              <div className="flash-price">
+                <div className="price">Rp.149.000,-</div>
+                <div className="sold">
+                  <div className="sold-img"></div>
+                  <div className="text">Habis Terjual</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="flash-product">
+            <div className="product-bg">
+              <div className="flash-img"></div>
+              <img src="/assets/images/flash.jpeg" />
+              <div className="flash-price">
+                <div className="price">Rp.149.000,-</div>
+                <div className="sold">
+                  <div className="sold-img"></div>
+                  <div className="text">Habis Terjual</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="flash-product">
+            <div className="product-bg">
+              <div className="flash-img"></div>
+              <img src="/assets/images/flash.jpeg" />
+              <div className="flash-price">
+                <div className="price">Rp.149.000,-</div>
+                <div className="sold">
+                  <div className="sold-img"></div>
+                  <div className="text">Habis Terjual</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="flash-product">
+            <div className="product-bg">
+              <div className="flash-img"></div>
+              <img src="/assets/images/flash.jpeg" />
+              <div className="flash-price">
+                <div className="price">Rp.149.000,-</div>
+                <div className="sold">
+                  <div className="sold-img"></div>
+                  <div className="text">Habis Terjual</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="flash-product">
+            <div className="product-bg">
+              <div className="flash-img"></div>
+              <img src="/assets/images/flash.jpeg" />
+              <div className="flash-price">
+                <div className="price">Rp.149.000,-</div>
+                <div className="sold">
+                  <div className="sold-img"></div>
+                  <div className="text">Habis Terjual</div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
