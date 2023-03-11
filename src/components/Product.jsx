@@ -2,6 +2,7 @@ import React from "react";
 import "../assets/css/Product.css";
 import FlashSale from "./FlashSale";
 import Kategori from "./Kategori";
+import Mall from "./Mall";
 
 const Product = () => {
   return (
@@ -9,6 +10,7 @@ const Product = () => {
       <div className="product-container">
         <Kategori />
         <FlashSale />
+        <Mall />
       </div>
     </div>
   );

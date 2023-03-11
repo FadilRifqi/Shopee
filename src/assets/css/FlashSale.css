@@ -139,3 +139,11 @@
   font-weight: 500;
   color: rgb(238, 77, 45);
 }
+
+.promo-container {
+  margin-top: 24px;
+  height: 120px;
+  width: 1200px;
+  background: url("/public/assets/images/banner.png");
+  background-repeat: no-repeat;
+}

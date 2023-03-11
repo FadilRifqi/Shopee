@@ -1,0 +1,70 @@
+.mall-wrapper {
+  margin-top: 16px;
+}
+
+.mall-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+.mall-header {
+  height: 4rem;
+  width: 100%;
+  background-color: #ffffff;
+}
+
+.mall-items {
+  height: 464px;
+  display: flex;
+  flex-direction: row;
+  background-color: #ffffff;
+}
+
+.carousel-wrapper {
+  margin-top: 12px;
+  position: relative;
+}
+
+.carousel-container-mall {
+  overflow: hidden;
+  width: 390px;
+  height: 452px;
+  border: 1px solid black;
+}
+
+.itemw-mall-wrapper {
+  position: relative;
+}
+.item-mall-container {
+  margin-top: 12px;
+  height: 452px;
+  width: 810px;
+  border: 1px solid black;
+  overflow: hidden;
+}
+
+.item-terlaris-wrapper {
+  margin-top: 24px;
+}
+
+.item-terlaris-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+.item-terlaris-header {
+  background-color: #ffffff;
+  height: 4rem;
+  width: 100%;
+}
+
+.item-terlaris-product-wrapper {
+  position: relative;
+}
+
+.item-terlaris-product-container {
+  background-color: #ffffff;
+  height: 280px;
+}
