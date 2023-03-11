@@ -36,7 +36,6 @@ const FlashSale = () => {
   };
 
   useEffect(() => {
-    console.log(minute);
     const interval = setInterval(() => {
       getTime();
     }, 1000);
